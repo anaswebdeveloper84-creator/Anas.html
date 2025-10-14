@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #000000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ff4d00;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ff4d00;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 10%;
+  gap: 60px;
+}
+
+.home-img img {
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: 0 0 80px #ff0000;
+}
+
+.home-content h1 {
+  font-size: 2.8rem;
+}
+
+.home-content h1 span {
+  color: #ff4d00;
+}
+
+.home-content h3 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+.home-content h3 span {
+  color: #ff4d00;
+}
+
+.home-content p {
+  color: #ccc;
+  margin: 15px 0 30px;
+  max-width: 450px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff4d00;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ff4d00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #ff4d00;
+}
